@@ -1,0 +1,80 @@
+* {
+    font-family: tahoma;
+}
+
+body {
+    background-color: rgb(241, 224, 203);
+
+}
+
+hr {
+    border: 2px solid red;
+    margin-bottom: 10%;
+}
+
+#contact {
+    margin-top: -9%;
+    margin-left: 45%;
+}
+
+#nav-bar {
+    margin-left: 50rem;
+
+
+}
+
+#nav-bar,
+ul,
+li {
+    display: flex;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+li,
+a {
+    text-decoration: none;
+    color: orangered;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+form {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(67, 39, 29);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.end {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+input,
+textarea {
+    width: 30rem;
+    padding: 13px;
+    margin-bottom: 10px;
+
+}
+
+#button {
+    width: 32rem;
+    padding: 6px;
+    background-color: rgb(55, 239, 55);
+    border: none;
+    color: rgb(24, 8, 3);
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}

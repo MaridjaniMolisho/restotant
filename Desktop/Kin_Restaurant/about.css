@@ -1,0 +1,63 @@
+* {
+    font-family: tahoma;
+}
+
+body {
+    background-color: rgb(241, 224, 203);
+
+}
+
+hr {
+    border: 2px solid red;
+    margin-bottom: 10%;
+}
+
+#about {
+    margin-top: -9%;
+    margin-left: 45%;
+}
+
+.text1 {
+    width: 600px;
+    height: 500px;
+    margin-left: 2%;
+}
+
+#kitch1 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -40%;
+
+    border: 2px solid red;
+}
+
+#nav-bar {
+    margin-left: 50rem;
+
+
+}
+
+#nav-bar,
+ul,
+li {
+    display: flex;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+li,
+a {
+    text-decoration: none;
+    color: orangered;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}

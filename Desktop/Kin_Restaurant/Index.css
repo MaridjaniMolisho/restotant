@@ -1,0 +1,88 @@
+* {
+    font-family: tahoma;
+}
+
+body {
+    background-color: rgb(241, 224, 203);
+
+}
+
+hr {
+    border: 2px solid red;
+    margin-bottom: 10%;
+}
+
+.kin {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(67, 39, 29);
+    padding: 5px 20px 0px 30px;
+    border-radius: 60px;
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: orangered 0px 8px 100px;
+}
+
+#food1 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -2%;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+#food2 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -2%;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+#food3 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -2%;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+#nav-bar {
+    margin-left: 50rem;
+
+
+}
+
+#nav-bar,
+ul,
+li {
+    display: flex;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+li,
+a {
+    text-decoration: none;
+    color: orangered;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+
+}
